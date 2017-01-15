@@ -12,7 +12,7 @@ def release_mode(file):
 	with open(file, 'r+') as f:
 		with open("copy" + file, 'w') as cpy:
 			for line in f:
-				if ('print' in line) and ('DEBUG' in line):
+				if ('DEBUG' in line):
 					newL = line.replace(line, "#" + line)
 					cpy.write(newL)
 					comment_counter += 1
@@ -32,7 +32,7 @@ def debug_mode(file):
 	with open(file, 'r+') as f:
 		with open("copy" + file, 'w') as cpy:
 			for line in f:
-				if ('print' in line) and ('DEBUG' in line) and ('#' in line):
+				if ('DEBUG' in line) and ('#' in line):
 					newL = line.replace('#', '')
 					decomment_counter += 1
 					cpy.write(newL)
