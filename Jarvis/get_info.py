@@ -9,8 +9,8 @@ import user_info as u
 from gtts import gTTS
 import speaker as s
 
-forecast_api_key = '9b4e7369ae70106a95cad017901e4afb'
-news_api_key = '4063190606a643f99106404030de7fd7'
+forecast_api_key = 'Your key'
+news_api_key = 'Your key'
 
 
 def get_month_from_number(num):
