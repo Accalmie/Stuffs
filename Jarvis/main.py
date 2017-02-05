@@ -5,7 +5,7 @@ import os
 import requests
 import json
 
-news_api_key = '4063190606a643f99106404030de7fd7'
+news_api_key = 'Your key
 
 
 def print_instruction():
